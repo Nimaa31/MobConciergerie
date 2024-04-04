@@ -32,7 +32,7 @@ function ContactForm() {
       return;
     }
 
-    emailjs.sendForm('service_4ky1shj', 'template_6qdcrqm', e.target, 'FP3hLqb5PwWP6s7Y9')
+    emailjs.sendForm()
       .then((result) => {
         setIsEmailSent(true);
         setFormData({
